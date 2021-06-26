@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Memories</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1} 
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none"; 
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block"; 
+			dots[slideIndex-1].className += " active";
+			}
+		</script>
+		<style>
+			* {box-sizing:border-box}
+			body {font-family: Verdana,sans-serif;margin:0}
+			.mySlides {
+				display:none;
+			}
+
+			/* Slideshow container */
+			.slideshow-container {
+			max-height: 750px;
+			max-width: 500px;
+			position: relative;
+			margin: auto;
+			}
+			
+			
+
+			/* Next & previous buttons */
+			.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			cursor:pointer;
+			height: 13px;
+			width: 13px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">我和愛愛瓜的回憶錄！</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">我是主頁</a></li>
+											<li><a href="memories_hangout.html">可可愛愛的日常合輯</a></li>
+											<li><a href="memories_eat.html">貪貪吃吃的覓食合輯</a></li>
+											<li><a href="memories_themePark.html">開開心心的樂園合輯</a></li>
+											<li><a href="memories_graduate.html">快快樂樂的畢業合輯</a></li>
+											<li><a href="memories_foods.html">賢賢慧慧的食物合輯</a></li>
+											</li>
+											<li><a href="guarantee.html">真真誠誠的承諾合輯</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<section id="banner">
+								<div class="inner">
+									<h2>愛愛瓜和我的故事：精選可愛回憶錄</h2>
+									<p>可可愛愛的日常合輯</p>	
+								</div>
+							</section>
+						</header>
+						
+						<section id="eat" class="inner">
+							<div style="text-align: center;">
+								<br>
+								<p>都說平凡的相處是最容易被忽略的幸福</p>
+								<p>以前笨笨的我，不只忽略，還錯得離譜</P>
+								<br>
+								<p>在妳身邊醒來的每個早晨都值得珍惜</p>
+								<p>有妳接我下班的每個晚上都十分幸運</p>
+								<p>我好喜歡一起想著共同休假日能去哪裡玩</p>
+								<p>做戒指、動物園、海邊、美術館、耶誕城、奇怪小新展</p>
+								<p>甚至只是簡簡單單的河濱公園運動騎腳踏車</p>
+								<p>都是多麼珍貴的回憶</p>
+								<br>
+								<p>我還喜歡一起幫對方洗澡 (雖然通常都是妳幫我洗</p>
+								<p>生病不舒服了互相照顧對方 (雖然通常都是妳照顧我</p>
+								<p>時不時送對方小驚喜 (雖然通常都是妳送的比我好很多</p>
+								<p>喜歡一起耍笨 喜歡黏著妳要抱抱</p>
+								<p>喜歡纏著妳問"嫁給我好不好？"</p>
+								<p>然後看著妳又呆又好笑的回應</p>
+								<p>好喜歡跟妳在一起的時光</p>
+								<p>真的好窩心、好快樂</p>
+								<br>
+								<p>以前的我真的做的很糟糕，總是收穫的多付出的少</p>
+								<p>但親愛的寶貝，再給我一次機會</p>
+								<p>請握緊我的手，相信我</p>
+								<p>未來的日子，我會讓妳幸福</p>
+								<p>不再錯過妳，這世界上最愛我的女孩</p>
+								<br><br>
+								<h4>請點擊箭頭或點點開始觀賞</h4>
+							</div>
+							<br><br><br>
+							<div id="slideshow1" class="slideshow-container"> 
+								<div class="mySlides fade"> 
+									<img src="images/else1.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade"> 
+									<img src="images/else2.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/else3.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else4.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else5.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else6.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else7.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else8.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else9.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else10.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else11.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else12.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else13.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else14.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else15.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else16.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else17.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else18.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else19.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else20.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else21.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else22.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else23.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else24.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else25.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/else26.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n1.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n2.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n3.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n4.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n5.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n6.jpg" style="width:100%"> 
+								</div> 
+								<div class="mySlides fade">  
+									<img src="images/3d2n7.jpg" style="width:100%"> 
+								</div>
+								<div class="mySlides fade">  
+									<img src="images/design1.jpg" style="width:100%"> 
+								</div> 
+							
+								<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a> 
+								<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a> 
+							
+								<div style="text-align:center"> 
+									<span class="dot" onclick="currentSlide(1, slideshow1)"></span> 
+									<span class="dot" onclick="currentSlide(2, slideshow1)"></span> 
+									<span class="dot" onclick="currentSlide(3, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(4, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(5, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(6, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(7, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(8, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(9, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(10, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(11, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(12, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(13, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(14, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(15, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(16, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(17, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(18, slideshow1)"></span> 
+									<span class="dot" onclick="currentSlide(19, slideshow1)"></span> 
+									<span class="dot" onclick="currentSlide(20, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(21, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(22, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(23, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(24, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(25, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(26, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(27, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(28, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(29, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(30, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(31, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(32, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(33, slideshow1)"></span>
+									<span class="dot" onclick="currentSlide(34, slideshow1)"></span>
+								</div> 
+							</div> 
+							<br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> 
+						</section>
+						
+					</article>
+					
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<p>這裡是留給以後我們一起創造的共同帳號用的！</p>
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Alice's Gift</li><li>Design by Kevin, loves you wholeheartedly</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
